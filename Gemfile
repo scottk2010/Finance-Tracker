@@ -3,7 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
-
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.2'
+# twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 4, 3.x Asset Pipeline
+gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+# Devise Bootstrap views with i18n support.
+gem 'devise-bootstrap-views', '~> 0.0.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
